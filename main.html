@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Question</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        blockquote {
+            max-width: 600px;
+            margin: 10px;
+            padding: 15px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Trivia</h1>
+    <p>Ritesh is creating a quiz for his friend who has an exam coming. He wants to impress her with the styling.</p>
+    
+    <p>What is the capital of India?</p>
+    <label>
+        <input type="radio" name="capital" value="New Delhi"> New Delhi
+    </label>
+    <label>
+        <input type="radio" name="capital" value="Mumbai"> Mumbai
+    </label>
+    
+    <blockquote cite="https://en.wikipedia.org/wiki/New_Delhi">
+        New Delhi is the capital of India and an administrative district of NCT Delhi.
+    </blockquote>
+    
+    <p><strong>Note:</strong> Make sure to follow the exact specifications to create the desired appearance.</p>
 </body>
-
 </html>
